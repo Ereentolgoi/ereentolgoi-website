@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Эрээн Толгой — компанийн албан ёсны цахим хуудас.">
+  <meta name="theme-color" content="#17252d">
+  <title>Эрээн Толгой | Ereen Tolgoi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ereen Tolgoi home">
+      <span class="brand-mark">ET</span>
+      <span class="brand-name"><strong>ЭРЭЭН ТОЛГОЙ</strong><small>EREEN TOLGOI</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" data-i18n="navAbout">Бидний тухай</a>
+      <a href="#operations" data-i18n="navOperations">Үйл ажиллагаа</a>
+      <a href="#sustainability" data-i18n="navSustainability">Тогтвортой хөгжил</a>
+      <a href="#news" data-i18n="navNews">Мэдээ</a>
+      <a href="#contact" data-i18n="navContact">Холбоо барих</a>
+    </nav>
+    <div class="language-switch" aria-label="Select language">
+      <button class="lang-btn active" data-lang="mn">MN</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="zh">中文</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="heroEyebrow">ЭРЭЭН ТОЛГОЙ • МОНГОЛ УЛС</p>
+        <h1 data-i18n="heroTitle">Хариуцлагатай уул уурхай.<br>Тогтвортой ирээдүй.</h1>
+        <p class="hero-copy" data-i18n="heroText">Бид үйл ажиллагаандаа хариуцлага, аюулгүй байдал, урт хугацааны үнэ цэнийг эрхэмлэнэ.</p>
+        <a class="primary-button" href="#about" data-i18n="heroCta">Бидний тухай</a>
+      </div>
+      <div class="hero-bottom"><span data-i18n="heroCaption">ЭРЭЭН ТОЛГОЙ</span><span>01 / 04</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-kicker" data-i18n="aboutKicker">КОМПАНИЙН ТАНИЛЦУУЛГА</div>
+      <div class="intro-grid">
+        <h2 data-i18n="aboutTitle">Итгэлцэлд суурилсан<br><em>урт хугацааны үнэ цэнэ.</em></h2>
+        <div>
+          <p class="lead" data-i18n="aboutText">Эрээн Толгой нь уул уурхайн салбарт үйл ажиллагаа явуулах зорилготой бөгөөд аюулгүй ажиллагаа, хариуцлагатай менежмент, орон нутгийн хөгжилд чиглэсэн зарчмыг баримтална.</p>
+          <a class="text-link" href="#operations"><span data-i18n="discover">Дэлгэрэнгүй танилцах</span> <b>↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus-section" id="operations">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="section-kicker light" data-i18n="focusKicker">БИДНИЙ ҮЙЛ АЖИЛЛАГАА</div><h2 data-i18n="focusTitle">Үндсэн чиглэлүүд</h2></div>
+          <p data-i18n="focusIntro">Төлөвлөлтөөс хэрэгжилт хүртэл бид үйл ажиллагааны үе шат бүрд хариуцлагатай хандана.</p>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <div class="card-number">01</div><div class="line-icon">⌁</div>
+            <h3 data-i18n="focus1Title">Уул уурхайн үйл ажиллагаа</h3>
+            <p data-i18n="focus1Text">Нөөц баялгийг хариуцлагатай ашиглах, үр ашигтай үйл ажиллагааг хөгжүүлэх.</p>
+          </article>
+          <article class="focus-card">
+            <div class="card-number">02</div><div class="line-icon">↗</div>
+            <h3 data-i18n="focus2Title">Дэд бүтэц, логистик</h3>
+            <p data-i18n="focus2Text">Тээвэр, ложистикийн найдвартай шийдэл болон дэд бүтцийн хөгжлийг дэмжих.</p>
+          </article>
+          <article class="focus-card">
+            <div class="card-number">03</div><div class="line-icon">◎</div>
+            <h3 data-i18n="focus3Title">Хамтын ажиллагаа</h3>
+            <p data-i18n="focus3Text">Түншүүд, орон нутгийн иргэд болон оролцогч талуудтай нээлттэй хамтран ажиллах.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement section-wrap" id="sustainability">
+      <div class="statement-image" role="img" aria-label="Mountain landscape"></div>
+      <div class="statement-copy">
+        <div class="section-kicker" data-i18n="sustainKicker">БИДНИЙ ЗАРЧИМ</div>
+        <h2 data-i18n="sustainTitle">Өнөөдрийн шийдвэр<br><em>маргаашийн ирээдүй.</em></h2>
+        <p data-i18n="sustainText">Аюулгүй ажиллагаа, байгаль орчны хариуцлага, ил тод засаглал, орон нутгийн харилцаа нь тогтвортой үйл ажиллагааны үндэс юм.</p>
+        <ul class="principles">
+          <li data-i18n="principle1">Хөдөлмөрийн эрүүл мэнд, аюулгүй байдал</li>
+          <li data-i18n="principle2">Байгаль орчны хариуцлага</li>
+          <li data-i18n="principle3">Ил тод, хариуцлагатай засаглал</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="news-section" id="news">
+      <div class="section-wrap news-inner">
+        <div class="section-kicker" data-i18n="newsKicker">МЭДЭЭ, МЭДЭЭЛЭЛ</div>
+        <div class="news-heading"><h2 data-i18n="newsTitle">Шинэ мэдээлэл</h2><span class="coming-soon" data-i18n="newsStatus">Удахгүй</span></div>
+        <p data-i18n="newsText">Компанийн мэдээ, үйл ажиллагааны шинэчлэл болон зарлалуудыг энэ хэсэгт нийтэлнэ.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-grid">
+        <div>
+          <div class="section-kicker light" data-i18n="contactKicker">ХОЛБОО БАРИХ</div>
+          <h2 data-i18n="contactTitle">Хамтран ажиллах<br>талаар ярилцъя.</h2>
+          <p data-i18n="contactText">Хамтын ажиллагаа болон ерөнхий лавлагаа авах бол бидэнтэй холбогдоно уу.</p>
+        </div>
+        <div class="contact-panel">
+          <div class="contact-label" data-i18n="contactCompany">КОМПАНИ</div>
+          <div class="contact-value">Эрээн Толгой</div>
+          <div class="contact-label" data-i18n="contactEmailLabel">ЦАХИМ ШУУДАН</div>
+          <div class="contact-value"><span data-i18n="emailPlaceholder">Имэйл хаяг оруулах шаардлагатай</span></div>
+          <div class="contact-label" data-i18n="contactAddressLabel">ХАЯГ</div>
+          <div class="contact-value"><span data-i18n="addressPlaceholder">Албан ёсны хаяг оруулах шаардлагатай</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">ET</span><span class="brand-name"><strong>ЭРЭЭН ТОЛГОЙ</strong><small>EREEN TOLGOI</small></span></a>
+    <span data-i18n="footerText">© Эрээн Толгой. Бүх эрх хуулиар хамгаалагдсан.</span>
+    <a href="#home" class="back-top" data-i18n="backTop">ДЭЭШ ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
